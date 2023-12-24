@@ -10,13 +10,15 @@ public class Point {
     }
 
     public void setX(double x){
+
         this.x=x;
     }
     public double getX(){
+
         return x;
     }
     public void setY(double y){
-        this.x=x;
+        this.y=y;
     }
     public double getY(){
         return y;
