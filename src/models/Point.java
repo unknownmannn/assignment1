@@ -26,7 +26,7 @@ public class Point {
     }
 
     public double getDistance(Point dest){
-         double distance = Math.sqrt(Math.pow(dest.x-x,2)+Math.pow(dest.y-y,2));
+         double distance = Math.sqrt((dest.x-x)*(dest.x-x)+(dest.y-y)*(dest.x-x));
          return distance;
     }
     @Override
